@@ -1,0 +1,71 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade {
+    animation: fadeIn 1s;
+}
+
+.loreButton {
+    padding: 0.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    background-color: rgba(231, 176, 37, 0.849);
+    color: black;
+    border-radius: 40px;
+    user-select: none;
+    transition: all 0.25s;
+    width: 300px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.loreButton:hover {
+    background-color: black;
+    color:rgba(231, 176, 37, 0.849);
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 20%;
+}
+
+.singleText {
+    font-size: 20px;
+    font-family: monaco;
+    background-color: rgb(211, 211, 211);
+    border-style: solid;
+    border-color: rgb(94, 48, 0);
+    text-align: center;
+    border-radius: 10px;
+    animation: fadeIn 1s; 
+}
+
+.textAndImg {
+    width: 50%;
+}
+
+.textOnly {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.loreImg {
+    animation: fadeIn 3s;
+    border-radius: 10px;
+}

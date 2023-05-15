@@ -1,0 +1,84 @@
+a:link {
+    text-decoration: none!important;
+}
+
+.world {
+    width: 100%;
+} 
+
+.myBackground {
+    background-image: url("../images/keyboard.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(161, 161, 161);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    
+}
+
+.welcomeImgs {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 13% 13%;
+}
+
+.welcomeImgs img {
+    width: 420px;
+    height: 300px;
+}
+
+.welcomeImgs h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    color: white;
+}
+
+.welcomeImgs h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.lowHomeImgs {
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 20%;
+    align-items: center;
+}
+
+.b1-one {
+    background-image: url("../images/fiu.png");
+    width: 500px;
+    height: 330px;
+    border-color: black;
+    border-style: solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+}
+
+.b2-two {
+    background-image: url("../images/linkedIn.png");
+    width: 500px;
+    height: 330px;
+    background-size: cover;
+    border-color: black;
+    border-style: solid;
+    transition: all 1s;
+}
+
+.lowHomeImgs div:hover {
+    transform: scale(1.1);
+    background-color: rgb(160, 160, 160);
+    background-blend-mode: multiply;
+}
+
+.lowHomeImgs p {
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20%;
+}

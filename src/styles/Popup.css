@@ -1,0 +1,68 @@
+@keyframes theFade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade {
+    animation: theFade 1s;
+}
+
+.outPop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    animation: theFade 0.4s;
+}
+
+.popUp {
+    position: fixed;
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    border-radius: 10px;
+    top: 30%;
+    border-color: black;
+    border-style: solid;
+}
+
+.popUp h1 {
+    font-size: 25px;
+}
+
+.popUp h2 {
+    font-size: 18px;
+}
+
+.popUp-buttons-separate {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+
+.popUp button{
+    width: 125px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: none;
+}
+
+.popUp-cancel {
+    border-color: gray;
+    color: gray;
+}
+
+.popUp-yes {
+    border-color: rgba(231, 176, 37, 0.849);
+    color: rgba(231, 176, 37, 0.849);
+}

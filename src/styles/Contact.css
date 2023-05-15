@@ -1,0 +1,59 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color:white;
+}
+
+.contactBackground {
+    background-image: url("../images/telephone.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-color: rgb(161, 161, 161);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactBackground h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    padding: 2%;
+    align-self: center;
+}
+
+.contactWays {
+    width: 100vh;
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: row;
+    color:white;
+}
+
+.contactPoint {
+    padding: 0% 25.5%;
+    text-align: center;
+}
+
+.contactPoint img {
+    width: 120px;
+}
+
+.contactPoint h2 {
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+}
+
+.contactPoint h3 {
+    font-size: 20px;
+}
+
+.contactPoint p {
+    font-size: 17px;
+}
