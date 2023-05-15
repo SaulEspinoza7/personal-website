@@ -10,12 +10,12 @@ const NavBar = () => {
     return (
         <div>
             <div className="outBar">
-                <Link to="/">
+                <Link to="/personal-website/">
                     <img src = {Thumb} width = "60px"></img>
                 </Link>
 
                 <nav>
-                    <Link to="/">Home</Link>
+                    <Link to="/personal-website/">Home</Link>
                     <a href="#" onClick={() => setPopUp(true)}>Download CV</a>
                     <Link to="/contact">Contact</Link>
                 </nav>
