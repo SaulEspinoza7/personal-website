@@ -68,7 +68,10 @@ const HomeButton = () => {
                                     it not only helps other people who are struggling with their coursework, but it<br/>
                                     helps me as well, as I get to understand the fundamentals even strongly by <br/>
                                     looking at them from the teaching perspective. Having worked on that milestone, <br/>
-                                    the next step towards my goal is to land an internship. 
+                                    the next step towards my goal is to land an internship.<br/>
+                                    Did I catch your interest?<br/>
+                                    Check out my newest project: The Cat Breed Selector website https://myfavoritecatselector.com/
+
                             </p>
                     </div>
                 : <p></p>}
