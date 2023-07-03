@@ -70,7 +70,7 @@ const HomeButton = () => {
                                     looking at them from the teaching perspective. Having worked on that milestone, <br/>
                                     the next step towards my goal is to land an internship.<br/>
                                     Did I catch your interest?<br/>
-                                    Check out my newest project: The Cat Breed Selector website https://myfavoritecatselector.com/
+                                    Check out my newest project: <a href="https://myfavoritecatselector.com/">The Cat Breed Selector website</a>
 
                             </p>
                     </div>
