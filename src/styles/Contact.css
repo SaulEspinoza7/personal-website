@@ -11,11 +11,13 @@ a {
     background-image: url("../images/telephone.png");
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 90vh;
     background-repeat: no-repeat;
     background-color: rgb(161, 161, 161);
     background-blend-mode: multiply;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    position: fixed;
     display: flex;
     flex-direction: column;
 }
@@ -29,16 +31,17 @@ a {
 }
 
 .contactWays {
-    width: 100vh;
+    width: 100%;
     display: flex;
-    align-content: space-evenly;
+    justify-content: space-evenly;
     flex-direction: row;
     color:white;
 }
 
 .contactPoint {
-    padding: 0% 25.5%;
+    padding: 0% 5%;
     text-align: center;
+    flex-direction: column;
 }
 
 .contactPoint img {

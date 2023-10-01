@@ -44,9 +44,11 @@ a:link {
 
 .lowHomeImgs {
     display: flex;
-    justify-content: space-between;
-    padding: 6% 20%;
+    justify-content: space-around;
+    padding: 6% 2%;
     align-items: center;
+    width: 65%;
+    margin: auto;
 }
 
 .b1-one {

@@ -26,7 +26,7 @@ const Home = () => {
                         <h2>Computer Science student at FIU</h2>
                     </div>
 
-                    <img src={Computer}></img>
+                    <img src={Computer} alt="Computer"></img>
                 </div>
             </div>
 

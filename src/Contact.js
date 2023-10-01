@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className="contactPoint">
                     <h2>Web</h2>
 
-                    <img src={Web}></img>
+                    <img src={Web} alt="website"></img>
 
                     <a href="https://www.linkedin.com/in/saul-espinoza-nalvarte-fiu/" target="_blank" rel="noreferrer">
                         <h3>LinkedIn</h3>
@@ -26,7 +26,7 @@ const Contact = () => {
                 <div className="contactPoint">
                     <h2>Phone</h2>
 
-                    <img src={Phone}></img>
+                    <img src={Phone} alt="Phone"></img>
 
                     <h3>Mobile</h3>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                 <div className="contactPoint">
                     <h2>E-mail</h2>
 
-                    <img src={Mail}></img>
+                    <img src={Mail} alt="Mail"></img>
 
                     <h3>Personal</h3>
 
