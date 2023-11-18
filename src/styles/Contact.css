@@ -60,3 +60,22 @@ a {
 .contactPoint p {
     font-size: 17px;
 }
+
+@media (max-width: 500px) {
+    .contactPoint img {
+        width: 80px;
+    }
+
+    .contactPoint h2 {
+        font-size: 20px;
+    }
+
+    .contactPoint h3 {
+        font-size: 16px;
+    }
+
+    .contactPoint p {
+        font-size: 15px;
+        
+    }
+}

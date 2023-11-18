@@ -37,8 +37,9 @@
 
 .separator {
     display: flex;
-    justify-content: space-between;
-    padding: 2% 20%;
+    justify-content: center;
+    gap: 2%;
+    margin: 3% 0;
 }
 
 .singleText {
@@ -50,6 +51,7 @@
     text-align: center;
     border-radius: 10px;
     animation: fadeIn 1s; 
+    padding: 1% 1%;
 }
 
 .singleText a {
@@ -57,9 +59,6 @@
     text-decoration-line: underline;
 }
 
-.textAndImg {
-    width: 50%;
-}
 
 .textOnly {
     width: 40%;
@@ -73,4 +72,47 @@
 .loreImg {
     animation: fadeIn 3s;
     border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .separator img {
+        width: 300px;
+        padding: 2% 2%;
+    }
+
+    .textOnly {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .loreButton {
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .separator {
+        flex-direction: column;
+        padding: 2% 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .separator p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .separator img {
+        margin-top: 10px;
+    }
+
+    .separator img {
+        width: 300px;
+    }
+
+    .textOnly {
+        width: 80%;
+    }
 }

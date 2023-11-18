@@ -27,7 +27,7 @@ const HomeButton = () => {
                 {firstButton ? 
                     <div>
                         <div className="separator"  id="firstHidden">
-                            <div className="singleText textAndImg" width="300px">
+                            <div className="singleText">
                                 <p>
                                     I was born in Lima, Peru. Since I was little, (about 5 <br/>
                                     years old) I have been very invested with computers, my <br/>
@@ -61,7 +61,7 @@ const HomeButton = () => {
                 {secondButton ? 
                     <div className="singleText textOnly" id="secondHidden">
                             <p>
-                                    I am now 21 years old and majoring in Computer Science at FIU, I also happen <br/>
+                                    I am now 22 years old and majoring in Computer Science at FIU, I also happen <br/>
                                     to work there as a part time tutor on the courses that I take, and helping the<br/>
                                     undersclassmen with better understanding programming topics and preparing them <br/>
                                     to succeed in their classes. This activity I find to be extremely rewarding as <br/>

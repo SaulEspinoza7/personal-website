@@ -44,11 +44,10 @@ a:link {
 
 .lowHomeImgs {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 6% 2%;
     align-items: center;
-    width: 65%;
-    margin: auto;
+    gap: 5%;
 }
 
 .b1-one {
@@ -83,4 +82,36 @@ a:link {
     text-align: center;
     font-size: 40px;
     padding-top: 20%;
+}
+
+@media (max-width: 1200px) {
+    .b1-one {
+        width: 400px;
+        height: 270px;
+    }
+
+    .b2-two {
+        width: 400px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 500px) {
+    .b1-one {
+        width: 160px;
+        height: 100px;
+    }
+
+    .b2-two {
+        width: 160px;
+        height: 100px;
+    }
+
+    .welcomeImgs img {
+        display: none;
+    }
+
+    .lowHomeImgs p {
+        font-size: 18px;
+    }
 }
