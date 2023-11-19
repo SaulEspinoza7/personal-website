@@ -94,6 +94,10 @@ a:link {
         width: 400px;
         height: 270px;
     }
+
+    .welcomeText h1 {
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -113,5 +117,13 @@ a:link {
 
     .lowHomeImgs p {
         font-size: 18px;
+    }
+
+    .welcomeText h1 {
+        font-size: 45px;
+    }
+
+    .welcomeText h2 {
+        font-size: 30px;
     }
 }
