@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.1c3ae0d9.css",
-    "main.js": "/personal-website/static/js/main.aa0d3171.js",
+    "main.css": "/personal-website/static/css/main.af22a26d.css",
+    "main.js": "/personal-website/static/js/main.9dc4b885.js",
     "static/media/pcGif.gif": "/personal-website/static/media/pcGif.10bcf96fe600001f8574.gif",
     "static/media/lima.png": "/personal-website/static/media/lima.b70dc5797c4051696f9a.png",
     "static/media/keyboard.png": "/personal-website/static/media/keyboard.66b4a3b210a5b787fd3b.png",
     "static/media/telephone.png": "/personal-website/static/media/telephone.44ce9d958d86abebd018.png",
+    "static/media/miamiGuide.jpg": "/personal-website/static/media/miamiGuide.c7cda19e42acf52fe629.jpg",
+    "static/media/catSelector.jpg": "/personal-website/static/media/catSelector.bc8b8f278d0e842a1c61.jpg",
     "static/media/thumbs.png": "/personal-website/static/media/thumbs.3060014195e76c75a0e4.png",
+    "static/media/init.jpg": "/personal-website/static/media/init.6b631e55e8a08ab64512.jpg",
+    "static/media/verdeVentures.jpg": "/personal-website/static/media/verdeVentures.647f06539a1e2a237fd5.jpg",
     "static/media/linkedIn.png": "/personal-website/static/media/linkedIn.7ba64b30752932deffc5.png",
     "static/media/miniPhone.png": "/personal-website/static/media/miniPhone.7daf5369eb85c90e743f.png",
     "static/media/fiu.png": "/personal-website/static/media/fiu.5bc220461bfd084c4cb1.png",
     "index.html": "/personal-website/index.html",
-    "main.1c3ae0d9.css.map": "/personal-website/static/css/main.1c3ae0d9.css.map",
-    "main.aa0d3171.js.map": "/personal-website/static/js/main.aa0d3171.js.map"
+    "main.af22a26d.css.map": "/personal-website/static/css/main.af22a26d.css.map",
+    "main.9dc4b885.js.map": "/personal-website/static/js/main.9dc4b885.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c3ae0d9.css",
-    "static/js/main.aa0d3171.js"
+    "static/css/main.af22a26d.css",
+    "static/js/main.9dc4b885.js"
   ]
 }
