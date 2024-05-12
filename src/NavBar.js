@@ -16,7 +16,7 @@ const NavBar = () => {
 
                 <nav>
                     <Link to="/personal-website/">Home</Link>
-                    <a href="#" onClick={() => setPopUp(true)}>Download CV</a>
+                    <Link to="/projects">My Portfolio</Link>
                     <Link to="/contact">Contact</Link>
                 </nav>
             </div>

@@ -1,0 +1,74 @@
+.projectComponentBox {
+    position: relative;
+    display: inline-block;
+}
+
+.projectOverlay {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.952);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: monaco;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.projectOverlay h3 {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.projectTechs {
+    display: flex;
+    gap: 10px;
+}
+
+.projectArrayElement {
+    border: 1px;
+    border-color: black;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1200px) {
+    .componentImg {
+        width: 400px;
+    }
+
+    .projectOverlay h3 {
+        font-size: 13px;
+    }
+
+    .projectOverlay h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .componentImg {
+        width: 290px;
+    }
+
+    .projectComponentBox {
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+    }
+}
