@@ -1,0 +1,27 @@
+.projectOverview {
+    width: 900px;
+    margin: 100px 125px;
+}
+
+.projectFeatures {
+    display: flex;
+    gap: 8%;
+    margin-bottom: 75px;
+}
+
+.projectTitle h2 {
+    margin-left: 20px;
+}
+
+.projectImages {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.projectImages img {
+    width: 800px;
+}

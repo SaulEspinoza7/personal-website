@@ -12,8 +12,8 @@ const ProjectComponent = (props) => {
         
 
     return (
-        <Link to="#" className="projectComponentBox" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-            <img src={require(`./images/projects/${props.title}.jpg`)} width="500px" style={{borderRadius: "10px"}} alt="Project Image" className="componentImg"></img>
+        <Link to={`/projects/${props.title}`} className="projectComponentBox" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+            <img src={require(`./images/projects/${props.title}.jpg`)} width="500px" style={{borderRadius: "10px"}} alt="Project" className="componentImg"></img>
                 {hover && 
                 <div className="projectOverlay">
                     <h2>{capitalize(props.title)}</h2>
