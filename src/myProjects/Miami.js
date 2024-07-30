@@ -2,7 +2,7 @@ import "../styles/ProjectPage.css";
 import FirstPage from "../images/projects/miamiGuide.jpg";
 import ImgOne from "../images/projects/miamiGuide1.png";
 import ImgTwo from "../images/projects/miamiGuide2.png";
-import ImgThree from "../images/projects/init3.png";
+import ImgThree from "../images/projects/miamiGuide3.png";
 
 const Miami = () => {
     return (
@@ -35,7 +35,7 @@ const Miami = () => {
             <div className="projectImages">
                 <img src={ImgOne} alt="First project display"/>
                 <img src={ImgTwo} alt="Second project display"/>
-                
+                <img src={ImgThree} alt="Third project display"/>
             </div>
         </>
     );

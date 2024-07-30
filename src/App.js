@@ -6,6 +6,8 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Init from "./myProjects/Init";
 import Miami from "./myProjects/Miami";
+import CatSelector from "./myProjects/CatSelector";
+import VerdeVentures from "./myProjects/VerdeVentures";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/projects/init' element={<Init/>}/>
         <Route path='/projects/miamiGuide' element={<Miami/>}/>
+        <Route path='/projects/catSelector' element={<CatSelector/>}/>
+        <Route path='/projects/verdeVentures' element={<VerdeVentures/>}/>
       </Routes>
        
     </div>
