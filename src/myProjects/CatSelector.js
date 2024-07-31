@@ -12,7 +12,7 @@ const CatSelector = () => {
                     <img src={FirstPage} width="500px" alt="Project First Page"/>
 
                     <div className="projectTitle">
-                        <h1>Cat Selector</h1>
+                        <h1>Cat Breed Selector</h1>
                         <h2>Features</h2>
                         <ul>
                             <li>App that reccommends cat breeds</li>

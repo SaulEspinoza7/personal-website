@@ -16,7 +16,7 @@ const Miami = () => {
                         <h2>Features</h2>
                         <ul>
                             <li>Tourism guide for Miami</li>
-                            <li>Reccommends places that the user is interested in</li>
+                            <li>Recommends places that the user is interested in</li>
                             <li>Gives detailed information on the locations such as schedules</li>
                         </ul>
                     </div>

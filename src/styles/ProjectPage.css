@@ -1,5 +1,5 @@
 .projectOverview {
-    width: 900px;
+    width: 1000px;
     margin: 100px 125px;
 }
 
@@ -24,4 +24,36 @@
 
 .projectImages img {
     width: 800px;
+}
+
+.projectOverview p {
+    font-size: 20px;
+}
+
+.projectOverview li {
+    font-size: 20px;
+}
+
+.projectOverview h1 {
+    font-size: 40px;
+}
+
+@media(max-width: 500px) {
+    .projectFeatures {
+        flex-direction: column;
+    }
+
+    .projectFeatures img {
+        width: 350px;
+        margin: auto;
+    }
+
+    .projectOverview {
+        width: auto;
+        margin: 50px 10px;
+    }
+
+    .projectImages img {
+        width: 375px;
+    }
 }
